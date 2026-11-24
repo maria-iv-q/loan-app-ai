@@ -1,0 +1,21 @@
+{
+  "name": "loan-app-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "playwright test",
+    "test:desktop": "playwright test --project='Desktop Chrome'",
+    "test:mobile": "playwright test --project='Mobile Chrome'",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@playwright/test": "^1.57.0",
+    "typescript": "^6.0.3"
+  },
+  "private": true
+}
